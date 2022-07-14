@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CALCULATOR.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <h1>SIMPLE CALCULATOR   </h1>
+            <input type="text" id="total" class="total" placeholder="Total" readonly  >
+            <input type="number" id="num1" class="num1" placeholder="Enter First Number">
+            <input type="number" id="num2" name="num2" placeholder="Enter Second Number">
+            <div class="menu">
+                <button id="Sum" onclick="add()"><i class="fas fa-plus"></i></button>
+                <button id="Subtract" onclick="sub()"><i class="fas fa-minus"></i></button>
+                <button id="Multiply" onclick="mult()"><i class="fas fa-times"></i></button>
+                <button id="Divide" onclick="div()"><i class="fas fa-divide"></i></button>
+                <button id="clear" onclick="clr()">Clear</button>
+                <button id="button" onclick="mode()"><i id="sun" class="fas fa-sun"></i></button>
+                <h3>Project by: JERAL BARNUEVO</h3>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="CALCULATOR.js"></script>   
+</html>
